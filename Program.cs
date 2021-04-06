@@ -87,13 +87,13 @@ namespace clickr
 
                 }
                 
-                //Console.WriteLine("# Click #" + clickCount + " Sleep: " + randomSleep + " ms | click hold time: " + holdTime + " ms.");
+                Console.WriteLine("# Click #" + clickCount + " Sleep: " + randomSleep + " ms | click hold time: " + holdTime + " ms.");
 
-                Console.WriteLine(randomSleep);
-                //Thread.Sleep(randomSleep);
+                //Console.WriteLine(randomSleep);
+                Thread.Sleep(randomSleep);
                 
                 //Initiate Mouse click function;
-                //DoMouseClick(holdTime);
+                DoMouseClick(holdTime);
                 clickCount++;
                 //Console.WriteLine("#---Click!");
             }
