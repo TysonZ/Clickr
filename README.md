@@ -1,2 +1,2 @@
 # Clickr
-Randomized Auto Click with right leaning bell curve frequency
+Randomized Auto Click with bell curve & descending linear frequency. 
