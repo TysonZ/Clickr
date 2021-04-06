@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 using System.Runtime.InteropServices; 
 using System.ComponentModel.DataAnnotations;
@@ -41,6 +41,8 @@ namespace clickr
             Console.Write("# : ");
             int hardMax = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("# Clicking randomly between " + hardBottom + " s and " + hardMax + " s.");
+            Console.WriteLine("# Enter 1 for Bell , 2 for Linear (descent) distribution");
+            int randomType = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("# Press any key to begin.");
             Console.ReadKey();
             //Calc average click time
@@ -68,23 +70,30 @@ namespace clickr
 
                 holdTime = Convert.ToInt32(holdTimeRand * 1000);
 
-                //Makes a perfect bell curve.
-                //randomSleep = ((rand1 + rand2)/2);
+                switch(randomType){
+                    case 1:
+                        //Makes a perfect bell curve.
+                        randomSleep = ((rand1 + rand2)/2);
 
-                //Lowest Random
-                if(rand1 > rand2){
-                    randomSleep = rand2;
-                } else{
-                    randomSleep = rand1;
+                    break;
+                    case 2:
+                        //Lowest Random (Linear)
+                        if(rand1 > rand2){
+                            randomSleep = rand2;
+                        } else{
+                            randomSleep = rand1;
+                        }
+                    break;
+
                 }
+                
+                //Console.WriteLine("# Click #" + clickCount + " Sleep: " + randomSleep + " ms | click hold time: " + holdTime + " ms.");
 
-                Console.WriteLine("# Click #" + clickCount + " Sleep: " + randomSleep + " ms | click hold time: " + holdTime + " ms.");
-
-                //Console.WriteLine(randomSleep);
-                Thread.Sleep(randomSleep);
+                Console.WriteLine(randomSleep);
+                //Thread.Sleep(randomSleep);
                 
                 //Initiate Mouse click function;
-                DoMouseClick(holdTime);
+                //DoMouseClick(holdTime);
                 clickCount++;
                 //Console.WriteLine("#---Click!");
             }
