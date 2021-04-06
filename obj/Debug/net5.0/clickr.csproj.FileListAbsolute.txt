@@ -1,0 +1,16 @@
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.exe
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.deps.json
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.runtimeconfig.json
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.runtimeconfig.dev.json
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.dll
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\ref\clickr.dll
+C:\Users\James\Desktop\clickr\bin\Debug\net5.0\clickr.pdb
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.csprojAssemblyReference.cache
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.AssemblyInfo.cs
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.dll
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\ref\clickr.dll
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.pdb
+C:\Users\James\Desktop\clickr\obj\Debug\net5.0\clickr.genruntimeconfig.cache
